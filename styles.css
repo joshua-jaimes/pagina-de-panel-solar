@@ -1,20 +1,21 @@
-/* === PORTADA PRINCIPAL === */
-:root {
-  --main-bg-color: #66a6ff;   /* Background gradient or section color */
-  --base-font-size: 18px;     /* Default font size for body text */
-  --accent-color: #ffd700;    /* Golden accent for highlights or buttons */
+body {
+  margin: 0;
+  padding: 0;
 }
 
+header {
+ margin:0;
+ padding:0;
+ display: flex; 
+  justify-content: center;
+}
 
 .container1 {
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
   justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  height: 100%;
-  width: 100%;
+  min-height: 95vh;
+  width: 100vw;
   background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  position: relative;
 }
 
 .title1 {
@@ -47,23 +48,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  padding: 80px 0;
-  background: linear-gradient(180deg, #66a6ff, #89f7fe);
+  padding: 10px 0;
+  gap: 10px;
+  max-height: 8vh;
+  position: fixed;
 }
 
 .btn {
-  background: #ffffff1a;
   color: white;
   font-size: 20px;
   padding: 15px 40px;
   border: 2px solid white;
   border-radius: 30px;
   text-transform: uppercase;
-  letter-spacing: 1px;
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: 'Poppins', sans-serif;
+  background-color: #ffc21c;
 }
 
 .btn:hover {
@@ -78,10 +79,12 @@ footer {
   background: #0f2027;
   color: #fff;
   text-align: center;
-  padding: 25px 0;
   font-size: 16px;
   letter-spacing: 1px;
+  min-height: 5vh;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  align-content: center;
 }
 
 footer p {
