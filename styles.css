@@ -154,6 +154,7 @@ footer p {
   text-align: left;
   display: flex;
   align-content: center;
+  flex-direction: column;
 }
 }
 
@@ -209,5 +210,6 @@ ol {
   text-align: center;
 
 }
+
 
 
