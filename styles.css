@@ -44,7 +44,7 @@ header {
 .container1 {
   justify-content: center;
   min-height: 95vh;
-  width: 98vw;
+  width: 90vw;
   background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
   position: relative;
 }
@@ -212,6 +212,7 @@ ol {
 #jjj {
   margin: 0px;
 }
+
 
 
 
