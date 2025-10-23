@@ -44,7 +44,7 @@ header {
 .container1 {
   justify-content: center;
   min-height: 95vh;
-  width: 100vw;
+  width: 95vw;
   background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
   position: relative;
 }
@@ -118,7 +118,7 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   box-sizing: border-box;
   align-content: center;
-  width: 100vw;
+  width: 95vw;
 }
 
 footer p {
@@ -213,6 +213,7 @@ ol {
 #jjj {
   margin: 0px;
 }
+
 
 
 
