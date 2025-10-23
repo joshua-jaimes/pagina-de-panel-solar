@@ -170,6 +170,10 @@ a:hover {
   color: #0056b3;
   transform: scale(1.1);
 }
+a:visited {
+  color: #a400b3;
+  text-decoration: none;
+}
 
 .fotos {
   width: 90%;
@@ -213,6 +217,7 @@ ol {
 #jjj {
   margin: 0px;
 }
+
 
 
 
