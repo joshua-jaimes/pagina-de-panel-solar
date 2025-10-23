@@ -152,9 +152,8 @@ footer p {
   font-size: 18px;
   color: #333;
   text-align: left;
-  display: flex;
+  display: grid;
   align-content: center;
-  flex-direction: column;
 }
 }
 
@@ -210,6 +209,7 @@ ol {
   text-align: center;
 
 }
+
 
 
 
