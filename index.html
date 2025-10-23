@@ -11,14 +11,14 @@
 
 <body>
 
-  <div class="container1">
+  <div id="container" class="container1">
 
     <header>
 
       <div class="buttons-section">
-        <button class="btn">Main</button>
-        <button class="btn">About</button>
-        <button class="btn">Contact</button>
+        <button class="btn" onclick="location.href='#container'">Main</button>
+        <button class="btn" onclick="location.href='#ddd'">About</button>
+        <button class="btn" onclick="location.href='#about-me'">Contact</button>
       </div>
 
     </header>
@@ -26,6 +26,13 @@
     <main>
 
       <div id="main">
+
+        <div class="g" > Welcome magazine</div>
+        <div class="f">
+      <img src="./imagenes/image.png" alt="Logo"/>
+      </div>
+    </header>
+
         <h1>DESCRIPTION</h1>
         <p class="text x">This project is a small scale solar garage made of cardboard. It works whith a solar panel
           that produces
@@ -86,7 +93,7 @@
               and off without disconnecting the wholes system.
             </p>
           </div>
-          <div class="imgs">
+          <div class="imgs" id="ddd">
             <div>
               <img src="./imagenes/cableado.png" alt="sol" class="fotos" />
             </div>

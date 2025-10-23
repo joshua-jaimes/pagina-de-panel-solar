@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 15px; 
+}
+
+.imag { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f5f5; 
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.imag img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imag p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+header {
+ margin:0;
+ padding:0;
+ display: flex; 
+  justify-content: center;
+}
+
+.container1 {
+  justify-content: center;
+  min-height: 95vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  position: relative;
+}
+
+.title1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  z-index: 1;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.texto2 {
+  margin-left: 60px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* === SECCIÓN DE BOTONES === */
+.buttons-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  gap: 10px;
+  max-height: 8vh;
+  position: fixed;
+  background-color: rgb(216, 216, 216);
+  width: 100vw;
+}
+
+.btn {
+  color: white;
+  font-size: 20px;
+  padding: 15px 40px;
+  border: 2px solid white;
+  border-radius: 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffc21c;
+}
+
+.btn:hover {
+  background: white;
+  color: #0072ff;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+/* === FOOTER ELEGANTE === */
+footer {
+  background: #0f2027;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  min-height: 5vh;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  align-content: center;
+}
+
+footer p {
+  margin: 0;
+  opacity: 0.8;
+}
+
