@@ -158,7 +158,7 @@ footer p {
 }
 }
 
-a {
+.a {
   text-decoration: none;
   color: #0072ff;
   font-weight: bold;
@@ -166,11 +166,11 @@ a {
   display: inline-block;
 }
 
-a:hover {
+.a:hover {
   color: #0056b3;
   transform: scale(1.1);
 }
-a:visited {
+.a:visited {
   color: #a400b3;
   text-decoration: none;
 }
@@ -217,6 +217,7 @@ ol {
 #jjj {
   margin: 0px;
 }
+
 
 
 
