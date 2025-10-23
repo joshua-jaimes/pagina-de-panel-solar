@@ -3,6 +3,36 @@ body {
   padding: 0;
 }
 
+
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 15px; 
+}
+
+.imag { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f5f5; 
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.imag img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.imag p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
 header {
  margin:0;
  padding:0;
@@ -91,3 +121,4 @@ footer p {
   margin: 0;
   opacity: 0.8;
 }
+
